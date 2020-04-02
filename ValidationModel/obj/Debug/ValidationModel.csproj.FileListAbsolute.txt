@@ -1,0 +1,7 @@
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Debug\ValidationModel.exe.config
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Debug\ValidationModel.exe
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Debug\ValidationModel.pdb
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.csprojAssemblyReference.cache
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.exe
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.pdb

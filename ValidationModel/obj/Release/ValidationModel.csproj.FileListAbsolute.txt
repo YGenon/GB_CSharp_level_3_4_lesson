@@ -1,0 +1,21 @@
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.exe.config
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.pdb
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.csprojAssemblyReference.cache
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.pdb
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.exe.config
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\bin\Release\ValidationModel.pdb
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.csprojAssemblyReference.cache
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\Новая папка\Lesson\MailSender\ValidationModel\obj\Release\ValidationModel.pdb
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Release\ValidationModel.exe.config
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\bin\Release\ValidationModel.pdb
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Release\ValidationModel.csprojAssemblyReference.cache
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Release\ValidationModel.csproj.CoreCompileInputs.cache
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Release\ValidationModel.exe
+C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Release\ValidationModel.pdb
