@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationModel", "Validati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLL", "CodePasswordDLL\CodePasswordDLL.csproj", "{650E306C-695F-413B-9A8B-162E4EDF9EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLLTest", "CodePasswordDLLTest\CodePasswordDLLTest.csproj", "{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLL.Test", "CodePasswordDLLTest\CodePasswordDLL.Test.csproj", "{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewItemScheduler", "ListViewItemScheduler\ListViewItemScheduler.csproj", "{889F4909-B737-4AC0-A175-56CE9D3A138B}"
 EndProject
