@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Любовь\Desktop\MailSender\MailSender\obj\Debug\
+D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\obj\Debug\
 MailSender
 none
 false
 DEBUG;TRACE
-C:\Users\Любовь\Desktop\MailSender\MailSender\App.xaml
-11151548125
+D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\App.xaml
+4-1943363937
 
-13-2071029907
-22762667342
-MainWindow.xaml;
+20433058499
+132-430142161
+src\ShinyBlue.xaml;Views\EmailInfo.xaml;Views\MainWindow.xaml;Views\SaveEmailView.xaml;
 
 False
 

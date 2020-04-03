@@ -6,6 +6,7 @@
  xmlns:local="clr-namespace:MailSender"
  xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
  xmlns:TabSwitcher="clr-namespace:TabSwitcher;assembly=TabSwitcher"
+ xmlns:ListViewItemScheduler="clr-namespace:ListViewItemScheduler;assembly=ListViewItemScheduler"
  xmlns:view="clr-namespace:MailSender.Views"
  mc:Ignorable="d"
  Height="450" Width="800">
@@ -139,7 +140,18 @@
                     </Grid.ColumnDefinitions>
                     <StackPanel Grid.Column="0" Margin="3">
                         <Calendar SelectionMode="MultipleRange"/>
-                        <xctk:TimePicker/>
+                        <!--<xctk:TimePicker/>-->
+                        <Button >
+                            <StackPanel Orientation="Horizontal">
+                                <Image Height="15" Source="pack://application:/src/plus.png"/>
+                                <TextBlock Text="Добавить"/>
+                            </StackPanel>
+                        </Button>
+                        <ListView x:Name="ListViewSheduler">
+                            <ListViewItemScheduler:ListViewItemSchedulerControl Width="165" />
+                                <ListViewItemScheduler:ListViewItemSchedulerControl Width="165"/>                            
+                        </ListView>
+                        <!--<ListViewItemScheduler:ListViewItemSchedulerControl> </ListViewItemScheduler:ListViewItemSchedulerControl>-->
                         <Button Margin="0,3">
                             <StackPanel Orientation="Horizontal">
                                 <Image Height="15" Source="pack://application:/src/clock.png" Margin="0,0,4,0"/>

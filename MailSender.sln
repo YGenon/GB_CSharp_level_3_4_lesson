@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLL", "CodePass
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLLTest", "CodePasswordDLLTest\CodePasswordDLLTest.csproj", "{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewItemScheduler", "ListViewItemScheduler\ListViewItemScheduler.csproj", "{889F4909-B737-4AC0-A175-56CE9D3A138B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889F4909-B737-4AC0-A175-56CE9D3A138B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889F4909-B737-4AC0-A175-56CE9D3A138B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889F4909-B737-4AC0-A175-56CE9D3A138B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889F4909-B737-4AC0-A175-56CE9D3A138B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

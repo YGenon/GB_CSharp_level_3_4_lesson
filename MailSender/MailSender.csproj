@@ -184,6 +184,10 @@
     </Resource>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ListViewItemScheduler\ListViewItemScheduler.csproj">
+      <Project>{889f4909-b737-4ac0-a175-56ce9d3a138b}</Project>
+      <Name>ListViewItemScheduler</Name>
+    </ProjectReference>
     <ProjectReference Include="..\TabSwitcher\TabSwitcher.csproj">
       <Project>{8bce7e9b-c2f7-48d4-a00c-743da24c544a}</Project>
       <Name>TabSwitcher</Name>
@@ -191,6 +195,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="src\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
