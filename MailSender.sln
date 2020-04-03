@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidationModel", "Validati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLL", "CodePasswordDLL\CodePasswordDLL.csproj", "{650E306C-695F-413B-9A8B-162E4EDF9EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodePasswordDLLTest", "CodePasswordDLLTest\CodePasswordDLLTest.csproj", "{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,12 +43,17 @@ Global
 		{650E306C-695F-413B-9A8B-162E4EDF9EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650E306C-695F-413B-9A8B-162E4EDF9EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650E306C-695F-413B-9A8B-162E4EDF9EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B32FF294-DF9F-46F5-B202-6DF793D362E2} = {86CA8A9C-8001-4402-8E5B-31E79BD0C64F}
+		{BE08E417-7FB5-4F8A-B9A9-2AB4B418099C} = {86CA8A9C-8001-4402-8E5B-31E79BD0C64F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD4E3760-4C84-4DE3-8A93-4FED2B9981B5}

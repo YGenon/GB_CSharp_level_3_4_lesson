@@ -10,8 +10,8 @@ namespace CodePasswordDLL
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CodePassword.getPassword("Пароль"));
-            Console.ReadLine();
+            //Console.WriteLine(CodePassword.getPassword("qwerty"));
+            //Console.ReadLine();
         }
     }
 }

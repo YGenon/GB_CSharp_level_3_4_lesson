@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace CodePasswordDLL
 {
-    public static class CodePassword
+    public class CodePassword
     {
-        public static string getPassword(string p_sPassw)
+        public string getPassword(string p_sPassw)
         {
             string password = "";
             foreach (char a in p_sPassw)

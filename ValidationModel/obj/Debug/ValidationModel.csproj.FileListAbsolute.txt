@@ -5,3 +5,10 @@ C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationMod
 C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.csproj.CoreCompileInputs.cache
 C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.exe
 C:\Users\Любовь\Desktop\MailSender\ValidationModel\obj\Debug\ValidationModel.pdb
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\bin\Debug\ValidationModel.exe.config
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\bin\Debug\ValidationModel.exe
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\bin\Debug\ValidationModel.pdb
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\obj\Debug\ValidationModel.csprojAssemblyReference.cache
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\obj\Debug\ValidationModel.csproj.CoreCompileInputs.cache
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\obj\Debug\ValidationModel.exe
+D:\GIT\GB_CSharp_level_3_4_lesson\ValidationModel\obj\Debug\ValidationModel.pdb
