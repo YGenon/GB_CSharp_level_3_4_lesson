@@ -141,15 +141,14 @@
                     <StackPanel Grid.Column="0" Margin="3">
                         <Calendar SelectionMode="MultipleRange"/>
                         <!--<xctk:TimePicker/>-->
-                        <Button >
+                        <Button  Click="Button_Click_AddNewEmail">
                             <StackPanel Orientation="Horizontal">
                                 <Image Height="15" Source="pack://application:/src/plus.png"/>
                                 <TextBlock Text="Добавить"/>
                             </StackPanel>
                         </Button>
-                        <ListView x:Name="ListViewSheduler">
-                            <ListViewItemScheduler:ListViewItemSchedulerControl Width="165" />
-                                <ListViewItemScheduler:ListViewItemSchedulerControl Width="165"/>                            
+                        <ListView  x:Name="ListViewSheduler">                            
+                            
                         </ListView>
                         <!--<ListViewItemScheduler:ListViewItemSchedulerControl> </ListViewItemScheduler:ListViewItemSchedulerControl>-->
                         <Button Margin="0,3">

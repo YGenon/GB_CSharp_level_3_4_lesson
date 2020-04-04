@@ -1,5 +1,6 @@
 ﻿using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Windows;
 using System.Windows.Data;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
@@ -53,8 +54,9 @@ namespace MailSender.ViewModel
 
 		public RelayCommand<Emails> SaveEmailCommand { get; }
         public RelayCommand ReadAllMailsCommand { get; }
+		
 
-        public MainWindowViewModel(IDataAccessService dataService)
+		public MainWindowViewModel(IDataAccessService dataService)
 		{
 			_dataService = dataService;
 			ReadAllMailsCommand = new RelayCommand(GetEmails);
@@ -69,5 +71,10 @@ namespace MailSender.ViewModel
 		}
 
 		private void GetEmails() => Emails = _dataService.GetEmails();
+
+		//public void AddNewItem()
+		//{			
+		//	MessageBox.Show("Добавили");
+		//}
 	}
 }

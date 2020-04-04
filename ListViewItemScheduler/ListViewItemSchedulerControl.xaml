@@ -9,7 +9,7 @@
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="25"/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="120"/>
             <ColumnDefinition Width="25"/>
         </Grid.ColumnDefinitions>
         <Button  Grid.Column="0" Width="25" Margin="0" ><!--Click="EditButton_Click"-->

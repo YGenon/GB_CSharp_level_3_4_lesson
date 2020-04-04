@@ -1,4 +1,5 @@
-﻿using System.Windows;
+﻿using ListViewItemScheduler;
+using System.Windows;
 
 namespace MailSender
 {
@@ -21,6 +22,18 @@ namespace MailSender
 		{
 			if (MainTabControl.SelectedIndex == MainTabControl.Items.Count - 1) return;
 			MainTabControl.SelectedIndex++;
+		}
+
+		/// <summary>
+		/// Добавляет новое письмо
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
+		private void Button_Click_AddNewEmail(object sender, RoutedEventArgs e)
+		{
+			//MessageBox.Show("Добавили");
+			ListViewItemSchedulerControl newEmail = new ListViewItemSchedulerControl();
+			ListViewSheduler.Items.Add(newEmail);
 		}
 	}
 }
