@@ -4,6 +4,7 @@ using System.Windows;
 using System.Windows.Data;
 using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using ListViewItemScheduler;
 using MailSender.Service;
 
 namespace MailSender.ViewModel
@@ -12,6 +13,7 @@ namespace MailSender.ViewModel
 	{
 		private readonly IDataAccessService _dataService;
 		private ObservableCollection<Emails> _emails = new ObservableCollection<Emails>();
+		private ObservableCollection<object> _newEmails = new ObservableCollection<object>();
 
 		public ObservableCollection<Emails> Emails
 		{
@@ -54,13 +56,16 @@ namespace MailSender.ViewModel
 
 		public RelayCommand<Emails> SaveEmailCommand { get; }
         public RelayCommand ReadAllMailsCommand { get; }
-		
+		public RelayCommand Click_AddNewEmail { get; }
+
+
 
 		public MainWindowViewModel(IDataAccessService dataService)
 		{
 			_dataService = dataService;
 			ReadAllMailsCommand = new RelayCommand(GetEmails);
 			SaveEmailCommand = new RelayCommand<Emails>(SaveEmail);
+			Click_AddNewEmail = new RelayCommand(AddNewItem);
 		}
 
 		private void SaveEmail(Emails email)
@@ -72,9 +77,20 @@ namespace MailSender.ViewModel
 
 		private void GetEmails() => Emails = _dataService.GetEmails();
 
-		//public void AddNewItem()
-		//{			
-		//	MessageBox.Show("Добавили");
-		//}
+		public object newEmail
+		{
+			get => _newEmails;
+			
+		}
+
+		/// <summary>
+		/// Добавляет новое письмо на вкладке планировщик
+		/// </summary>
+		public void AddNewItem()
+		{
+			//MessageBox.Show("Добавили");
+			ListViewItemSchedulerControl newEmail = new ListViewItemSchedulerControl();			
+			_newEmails.Add(newEmail);
+		}
 	}
 }

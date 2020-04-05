@@ -24,16 +24,15 @@ namespace MailSender
 			MainTabControl.SelectedIndex++;
 		}
 
-		/// <summary>
-		/// Добавляет новое письмо
-		/// </summary>
-		/// <param name="sender"></param>
-		/// <param name="e"></param>
+		
 		private void Button_Click_AddNewEmail(object sender, RoutedEventArgs e)
 		{
-			//MessageBox.Show("Добавили");
-			ListViewItemSchedulerControl newEmail = new ListViewItemSchedulerControl();
-			ListViewSheduler.Items.Add(newEmail);
+			
+		}
+
+		private void cbSenderSelect_SelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+		{
+
 		}
 	}
 }

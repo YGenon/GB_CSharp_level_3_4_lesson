@@ -9,7 +9,8 @@
  xmlns:ListViewItemScheduler="clr-namespace:ListViewItemScheduler;assembly=ListViewItemScheduler"
  xmlns:view="clr-namespace:MailSender.Views"
  mc:Ignorable="d"
- Height="450" Width="800">
+ Height="450" Width="800"
+    DataContext="{Binding Main, Source={StaticResource Locator}}">
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="File">
@@ -51,7 +52,7 @@
                             <Label Content="Отправитель:"/>
                             <ComboBox Name="cbSenderSelect" Width="150" 
                                       ItemsSource="{x:Static local:Resources.SendersDictionary}"
-                                      SelectedIndex="0">
+                                      SelectedIndex="0" SelectionChanged="cbSenderSelect_SelectionChanged">
                                 <ComboBox.ItemTemplate>
                                     <DataTemplate>
                                         <TextBlock Text="{Binding Key}"/>
@@ -141,13 +142,14 @@
                     <StackPanel Grid.Column="0" Margin="3">
                         <Calendar SelectionMode="MultipleRange"/>
                         <!--<xctk:TimePicker/>-->
-                        <Button  Click="Button_Click_AddNewEmail">
+                        <!--<Button  Click="Button_Click_AddNewEmail">-->
+                        <Button  Command="{Binding Click_AddNewEmail}">
                             <StackPanel Orientation="Horizontal">
                                 <Image Height="15" Source="pack://application:/src/plus.png"/>
                                 <TextBlock Text="Добавить"/>
                             </StackPanel>
                         </Button>
-                        <ListView  x:Name="ListViewSheduler">                            
+                        <ListView  x:Name="ListViewSheduler" ItemsSource="{Binding newEmail}">                            
                             
                         </ListView>
                         <!--<ListViewItemScheduler:ListViewItemSchedulerControl> </ListViewItemScheduler:ListViewItemSchedulerControl>-->
