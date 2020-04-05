@@ -149,10 +149,12 @@
                                 <TextBlock Text="Добавить"/>
                             </StackPanel>
                         </Button>
-                        <ListView  x:Name="ListViewSheduler" ItemsSource="{Binding newEmail}">                            
-                            
+                        <Grid Height="105">
+                        <ListView  x:Name="ListViewSheduler" ItemsSource="{Binding newEmail}">
+                           
                         </ListView>
-                        <!--<ListViewItemScheduler:ListViewItemSchedulerControl> </ListViewItemScheduler:ListViewItemSchedulerControl>-->
+                            </Grid>
+                       
                         <Button Margin="0,3">
                             <StackPanel Orientation="Horizontal">
                                 <Image Height="15" Source="pack://application:/src/clock.png" Margin="0,0,4,0"/>

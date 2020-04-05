@@ -77,6 +77,7 @@ namespace MailSender.ViewModel
 
 		private void GetEmails() => Emails = _dataService.GetEmails();
 
+		//
 		public object newEmail
 		{
 			get => _newEmails;
