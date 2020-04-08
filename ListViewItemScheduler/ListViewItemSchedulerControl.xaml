@@ -5,8 +5,9 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ListViewItemScheduler"
              mc:Ignorable="d" 
-             d:DesignHeight="25" d:DesignWidth="200">
-             <!--d:DesignHeight="25" d:DesignWidth="200">-->
+             d:DesignHeight="25" d:DesignWidth="200"
+            DataContext="{Binding Main, Source={StaticResource Locator}}">
+    <!--d:DesignHeight="25" d:DesignWidth="200">-->
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="25"/>
@@ -17,8 +18,9 @@
             <Image  Source="/src/Pencil.png"/>
         </Button>
         <TextBox Grid.Column="1" Width="Auto"/>
-        <Button  Grid.Column="2"  ><!--Click="RemoveButton_Click"-->
+        <Button  Grid.Column="2" Command="{Binding RemoveButton_Click}" >
             <Image Source="pack://application:/src/remove.png" />
+            
         </Button>
     </Grid>
 </UserControl>

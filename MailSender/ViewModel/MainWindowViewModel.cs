@@ -57,6 +57,7 @@ namespace MailSender.ViewModel
 		public RelayCommand<Emails> SaveEmailCommand { get; }
         public RelayCommand ReadAllMailsCommand { get; }
 		public RelayCommand Click_AddNewEmail { get; }
+		public RelayCommand RemoveButton_Click { get; }
 
 
 
@@ -66,6 +67,7 @@ namespace MailSender.ViewModel
 			ReadAllMailsCommand = new RelayCommand(GetEmails);
 			SaveEmailCommand = new RelayCommand<Emails>(SaveEmail);
 			Click_AddNewEmail = new RelayCommand(AddNewItem);
+			RemoveButton_Click = new RelayCommand(DellItem);
 		}
 
 		private void SaveEmail(Emails email)
@@ -78,7 +80,7 @@ namespace MailSender.ViewModel
 		private void GetEmails() => Emails = _dataService.GetEmails();
 
 		//
-		public object newEmail
+		public object newEmail 
 		{
 			get => _newEmails;
 			
@@ -92,6 +94,14 @@ namespace MailSender.ViewModel
 			//MessageBox.Show("Добавили");
 			ListViewItemSchedulerControl newEmail = new ListViewItemSchedulerControl();			
 			_newEmails.Add(newEmail);
+		}
+
+		/// <summary>
+		/// Удаляем письмо на вкладке планировщик
+		/// </summary>
+		public void DellItem() 
+		{
+			MessageBox.Show("Удалили");
 		}
 	}
 }
