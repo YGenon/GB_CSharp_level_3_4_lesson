@@ -65,7 +65,6 @@ D:\GeekBrains\C#\C# 3 уровень\4 урок\MailSender\TabSwitcher\obj\Relea
 D:\GeekBrains\C#\C# 3 уровень\4 урок\MailSender\TabSwitcher\obj\Release\TabSwitcher.pdb
 D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\bin\Release\TabSwitcher.dll
 D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\bin\Release\TabSwitcher.pdb
-D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\obj\Release\TabSwitcher.csprojAssemblyReference.cache
 D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\obj\Release\TabSwitcherControl.g.cs
 D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\obj\Release\TabSwitcher_MarkupCompile.cache
 D:\GIT\GB_CSharp_level_3_4_lesson\TabSwitcher\obj\Release\TabSwitcher_MarkupCompile.lref

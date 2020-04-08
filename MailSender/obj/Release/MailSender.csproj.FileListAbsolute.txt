@@ -299,7 +299,6 @@ D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\Xceed.Wpf.DataGrid.dll
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\Xceed.Wpf.Toolkit.dll
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\ListViewItemScheduler.pdb
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\TabSwitcher.pdb
-D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\EncrypterDll.pdb
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\GalaSoft.MvvmLight.pdb
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\GalaSoft.MvvmLight.xml
 D:\GIT\GB_CSharp_level_3_4_lesson\MailSender\bin\Release\GalaSoft.MvvmLight.Extras.pdb

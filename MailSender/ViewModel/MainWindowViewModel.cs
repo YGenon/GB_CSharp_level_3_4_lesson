@@ -101,7 +101,8 @@ namespace MailSender.ViewModel
 		/// </summary>
 		public void DellItem() 
 		{
-			MessageBox.Show("Удалили");
+			//MessageBox.Show("Удалили");
+			_newEmails.RemoveAt(0);
 		}
 	}
 }

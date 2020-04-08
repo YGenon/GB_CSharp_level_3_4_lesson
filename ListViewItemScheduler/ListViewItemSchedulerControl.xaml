@@ -18,7 +18,8 @@
             <Image  Source="/src/Pencil.png"/>
         </Button>
         <TextBox Grid.Column="1" Width="Auto"/>
-        <Button  Grid.Column="2" Command="{Binding RemoveButton_Click}" >
+        <Button  Grid.Column="2"  Command="{Binding RemoveButton_Click}">
+            <!--Click="RemoveButton_Click"-->
             <Image Source="pack://application:/src/remove.png" />
             
         </Button>
